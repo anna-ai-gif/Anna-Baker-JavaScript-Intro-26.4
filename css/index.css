@@ -1,0 +1,85 @@
+
+
+body {
+    background-color: lavender;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Make my name cursive */
+
+h1 {
+    font-family: "Brush Script MT", "Apple Chancery", cursive;
+    font-size: 56px;
+    color: #9b59b6;
+    text-align: center;
+}
+
+/* Style section headings */
+h2 {
+    color: #8e44ad;
+    font-size: 28px;
+}
+
+/* Add space around each section */
+section {
+    margin: 35px 20px;
+    padding: 20px;
+}
+
+/* Make links neat and give them space */
+a {
+    display: inline-block;
+    margin-right: 25px;
+    color: #8e44ad;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Change link color when hovering */
+a:hover {
+    color: lightpink;
+    text-decoration: underline;
+}
+#Experience li {
+    background-color: #da86e7;
+    font-family: "Brush Script MT", "Apple Chancery", cursive;
+    font-size: 46px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 12px;
+    list-style: none;
+    flex: 1;
+}
+
+#Experience ul {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: purple;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+nav a {
+    color: #edd5f7;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FFB6C1;
+}
+#Connect {
+    text-align: center;
+}
+
+#Connect a {
+    display: inline-block;
+    margin: 10px 15px;
+}
