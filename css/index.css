@@ -83,3 +83,17 @@ nav a:hover {
     display: inline-block;
     margin: 10px 15px;
 }
+
+#Skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+#Skills li {
+    background-color: #FFF0F5;
+    padding: 15px;
+    border-radius: 12px;
+}
