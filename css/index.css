@@ -97,3 +97,35 @@ nav a:hover {
     padding: 15px;
     border-radius: 12px;
 }
+#LeaveMessage form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+}
+
+#LeaveMessage input,
+#LeaveMessage textarea {
+    padding: 12px;
+    border: 1px solid plum;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#LeaveMessage textarea {
+    min-height: 100px;
+}
+
+#LeaveMessage button {
+    background-color: #883DA5;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#LeaveMessage button:hover {
+    background-color: hotpink;
+}
